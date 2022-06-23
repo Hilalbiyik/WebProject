@@ -1,1 +1,1 @@
-cüzdan Uygulaması
+Cüzdan Uygulaması
