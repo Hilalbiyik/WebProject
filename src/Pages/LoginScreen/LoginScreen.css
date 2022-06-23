@@ -1,0 +1,118 @@
+.lgn-main {
+  text-align: center;
+  justify-content: center;
+  display: flex; 
+  padding-top: 90px;
+  padding-bottom: 90px;
+  z-index: auto;
+  
+  
+}
+.lgn-sub-main {
+  display: flex;
+  justify-content: center;
+  height: 550px;
+  width: 35%;
+  padding-top: 30px;
+  border-radius: 60px; 
+  background-color: white;
+}
+.imgs {
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+  }
+.container-image {
+  background-color: rgb(223, 221, 221); 
+  border-radius: 150px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 115px;
+  width: 115px;
+}
+.lgn-profile {
+  height: 100px;
+  width: 100px;
+  border-radius: 130px;
+} 
+
+
+button{
+    width: 380px;
+    height: 250px;
+    border-radius: 60px;
+    background-color: #81d7a3;
+    color: white;
+    font-size: 25px;
+    border: none;
+}
+
+.lgn-button {
+
+  margin-top: 20px;
+  padding-top: 50px;
+  background-color: #81d7a3;
+  border: 120px;
+  color: #fff;
+  border-radius: 30px;
+  width: 140px;
+  height: 50px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  outline: none;
+  outline: 0;
+  padding: 0px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-lgn:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0 3px 9px 0;
+  transform: translateY(-2px);
+} 
+
+.buttons {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 12, 5px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.input-icons i {
+  position: absolute;
+  color: #81d7a3;
+  
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 50px;
+  border-radius: 60px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  
+}
+
+.icon {
+  padding: 10px;
+  min-width: 40px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}

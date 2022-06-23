@@ -1,0 +1,83 @@
+.pro-main {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 0px;
+  width: 100%;
+  bottom: 50%;
+}
+
+.pro-sub-main {
+  margin-top: 180px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 2px solid;
+  border-color: #3d3d3dcc;
+  border-radius: 50px;
+  width: 500px;
+  height: 550px;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+  box-shadow: rgb(0 10 18 / 10%) 0px 3px 120px,
+    rgb(246 246 246 / 50%) 0px 0px 120px;
+}
+
+.pro-sub-main input {
+  margin: auto;
+  border-radius: 20px;
+  text-align: center;
+  width: 300px;
+  height: 50px;
+  border-radius: 60px;
+  margin-top: 15px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  font-size: 18px;
+  
+}
+.pro-sub-main input::placeholder {
+  color: black;
+}
+
+.pro-sub-main button {
+  /* background: linear-gradient(to bottom right, #b8b6b9ee, #ffffffff); */
+  background-color: #81d7a3;
+  border: 0px;
+  color: white;
+  border-radius: 30px;
+  width: 150px;
+  height: 55px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  outline: none;
+  outline: 0;
+  padding: 0px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  
+}
+
+.pro-flex {
+  display: flex;
+}
+
+.pass-edit-btn {
+  margin-top: 30px;
+}
+

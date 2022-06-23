@@ -1,0 +1,62 @@
+.exp-div-cmp {
+  margin: 1%;
+  margin-bottom: 0.05%;
+  margin-top: 20px;
+  width: 23%;
+  
+  background: #156064;;
+  border: 1px solid;
+  border-color: lightgray;
+  border-radius: 12px;
+  color: white;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  outline: transparent;
+  padding: 0 1rem;
+  padding-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease-in-out;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.exp-test {
+  width: fit-content;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.exp-test button {
+  
+  background-color: #81d7a3;
+  font-size: medium;
+  font-weight: bold;
+  width: 180px;
+  margin: 10px;
+  height: 40px;
+  border-radius: 20px;
+  border: 0px;
+}
+
+.exp-test input {
+  background: linear-gradient(to bottom right, #b8b6b9ee, #ffffffff);
+  width: 200px;
+  height: 25px;
+  margin: 10px;
+  margin-right: 20px;
+  border-radius: 20px;
+  border: 0px;
+  text-align: center;
+}
+
+.del-button:hover {
+  background: linear-gradient(to bottom right, #ff0000ee, rgb(255, 100, 100));
+  color: white;
+}
+
+.exp-rep-color {
+  border: 2px solid;
+  border-color:#81d7a3;
+}
